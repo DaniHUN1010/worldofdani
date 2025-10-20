@@ -4,11 +4,11 @@ public class Player {
     private Scene scene;
     private ArrayList<Item> inventory;
 
-    public Scene getScene() {
+    public Scene getCurrentScene() {
         return scene;
     }
 
-    public void setScene(Scene scene) {
+    public void setCurrentScene(Scene scene) {
         this.scene = scene;
     }
 
